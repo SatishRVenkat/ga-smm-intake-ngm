@@ -1,0 +1,36 @@
+# Ignore node_modules
+**/node_modules/
+
+**/.git
+# Ignore build output
+**/dist
+
+**/README.md
+**/LICENSE
+**/.vscode
+**/npm-debug.log
+**/coverage
+
+**/.env
+**/.editorconfig
+**/.aws
+
+# # Ignore environment files
+# src/environments
+
+# # Ignore logs
+# logs
+# *.log
+# npm-debug.log*
+
+# # Ignore IDE files
+# .idea
+# .vscode
+# *.suo
+# *.ntvs*
+# *.njsproj
+# *.sln
+
+# # Ignore OS generated files
+# .DS_Store
+# Thumbs.db

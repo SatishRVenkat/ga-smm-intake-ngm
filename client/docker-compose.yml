@@ -1,0 +1,16 @@
+services:
+  client:
+    container_name: client
+    build: .
+    image: client:v1
+    ports:
+      - 80:80
+    expose:
+      - 80
+    networks:
+      - internalnet
+
+
+networks:
+  internalnet:
+    driver: bridge
